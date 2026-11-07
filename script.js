@@ -22,7 +22,7 @@ const sections = document.querySelectorAll('main section[id]');
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
-      links.forEach(link => link.classList.toggle(
+      links.forEach(lik => link.classList.toggle(
         'active',
         link.getAttribute('href') === '#' + entry.target.id
       ));

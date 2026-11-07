@@ -8,108 +8,382 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <script src="script.js" defer></script>
 </head>
 <body>
+
 <header class="header">
-  <a class="logo" href="#home">N.</a>
+  <a class="logo" href="#home">logo</a>
   <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-label="Open menu">☰</button>
   <nav id="nav">
-    <a class="active" href="#home">Home</a><a href="#about">About Me</a><a href="#technologies">Technologies</a><a href="#projects">Projects</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a>
+    <a class="active" href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#technologies">Technologies</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
   </nav>
 </header>
+
 <main>
+
   <section class="hero wrap" id="home">
     <div>
-      <p class="hello">Hello, I'm</p><h1>Natalia</h1><p class="role">UX/UI Designer</p>
-      <p class="intro">I create digital experiences that are functional, simple and meaningful.</p>
-      <div class="actions"><a class="btn primary" href="#about">About Me ↓</a><a class="btn outline" href="#projects">View Projects →</a></div>
-      <div class="social"><a href="#" aria-label="GitHub">GH</a><a href="#" aria-label="LinkedIn">in</a><a href="mailto:your.email@example.com" aria-label="Email">✉</a></div>
+      <p class="hello">Hello, I'm</p>
+      <h1>Natalia</h1>
+      <p class="role">Future Communications Professional</p>
+      <p class="intro">I create meaningful digital experiences through communication, creativity and technology.</p>
+      <div class="actions">
+        <a class="btn primary" href="#about">About Me ↓</a>
+        <a class="btn outline" href="#projects">View Projects →</a>
+      </div>
+      <div class="social">
+        <a href="https://github.com/natlissk" aria-label="GitHub">GH</a>
+        <a href="https://www.linkedin.com/in/natalia-monterroza-166090430?utm_source=share_via&utm_content=profile&utm_medium=member_android" aria-label="LinkedIn">in</a>
+        
+      </div>
     </div>
-    <div class="portrait-wrap"><div class="portrait"><img src="avatar.jpg" alt="Natalia's portrait" onerror="this.style.display='none';document.querySelector('.placeholder').style.display='grid'"><div class="placeholder">Add your<br>photo here</div></div><span class="sparkle">♡</span></div>
+
+    <div class="portrait-wrap">
+      <div class="portrait">
+        <img src="WhatsApp Image 2026-11-07 at 10.50.31 AM.jpeg" alt="Natalia's portrait" onerror="this.style.display='none';document.querySelector('.placeholder').style.display='grid'">
+        <div class="placeholder">my <br>fotico</div>
+      </div>
+      <span class="sparkle">♡</span>
+    </div>
   </section>
 
-  <section class="about band" id="about"><div class="wrap about-inner">
-    <div><p class="kicker">A little about me</p><h2>About Me</h2><p>Hi! I'm Natalia. I'm a student interested in communication, digital design and technology. I enjoy turning ideas into clear, useful and visually engaging experiences. I'm responsible, adaptable, creative and always willing to learn.</p></div>
-    <div class="strengths">
-      <article><span class="icon">☆</span><h3>Creative</h3><p>I enjoy transforming ideas into visual solutions.</p></article>
-      <article><span class="icon">♧</span><h3>Team Player</h3><p>I value collaboration and sharing ideas.</p></article>
-      <article><span class="icon">♡</span><h3>Committed</h3><p>I do my best and keep learning in every project.</p></article>
-    </div>
-  </div></section>
+  <section class="about band" id="about">
+    <div class="wrap about-inner">
+      <div>
+        <p class="kicker">A little about me</p>
+        <h2>About Me</h2>
+        <p>Hi! I'm Natalia. I'm a student interested in communication, digital design and technology. I enjoy turning ideas into clear, useful and visually engaging experiences. I'm responsible, adaptable, creative and always willing to learn.</p>
+      </div>
 
-  <section class="wrap section" id="technologies"><p class="kicker">My toolkit</p><h2>Technologies &amp; Tools</h2><p class="sub">Here are some of the technologies and tools I work with.</p>
+      <div class="strengths">
+  <article>
+    <span class="icon">
+      <i class="fa-solid fa-lightbulb"></i>
+    </span>
+    <h3>Creative</h3>
+    <p>I enjoy transforming ideas into visual solutions.</p>
+  </article>
+
+  <article>
+    <span class="icon">
+      <i class="fa-solid fa-people-group"></i>
+    </span>
+    <h3>Team</h3>
+    <p>I value collaboration and sharing ideas.</p>
+  </article>
+
+  <article>
+    <span class="icon">
+      <i class="fa-solid fa-bullseye"></i>
+    </span>
+    <h3>Committed</h3>
+    <p>I do my best and keep learning in every project.</p>
+  </article>
+</div>
+  </section>
+
+  <!-- TECHNOLOGIES -->
+  <section class="wrap section" id="technologies">
+    <p class="kicker">My toolkit</p>
+    <h2>Technologies &amp; Tools</h2>
+    <p class="sub">Here are some of the technologies and tools I work with.</p>
+
     <div class="tech-grid">
-      <article class="tech-card"><h3><span class="tech-icon">&lt;/&gt;</span>Frontend</h3><ul><li><b class="html">5</b> HTML5</li><li><b class="css">3</b> CSS3</li><li><b class="js">JS</b> JavaScript</li></ul></article>
-      <article class="tech-card"><h3><span class="tech-icon">⌘</span>Backend</h3><ul><li><b class="backend">JS</b> JavaScript basics</li><li><b class="backend">↗</b> Add tools you know</li></ul></article>
-      <article class="tech-card"><h3><span class="tech-icon">▤</span>Databases</h3><ul><li><b class="db">DB</b> Add tools you know</li></ul></article>
-      <article class="tech-card"><h3><span class="tech-icon">✎</span>Design &amp; Others</h3><ul><li><b class="figma">F</b> Figma</li><li><b class="canva">C</b> Canva</li><li><b class="github">GH</b> GitHub</li><li><b class="trello">T</b> Trello</li></ul></article>
-      <article class="tech-card"><h3><span class="tech-icon">▣</span>Office &amp; Productivity</h3><ul><li><b class="excel">X</b> Excel</li><li><b class="word">W</b> Word</li><li><b class="powerpoint">P</b> PowerPoint</li><li><b class="google">G</b> Google Workspace</li></ul></article>
-    </div><p class="note">Only list technologies and tools you have actually used.</p>
+
+      <!-- FRONTEND -->
+      <article class="tech-card">
+        <h3><span class="tech-icon">&lt;/&gt;</span>Frontend</h3>
+        <ul>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 logo" width="24" height="24"> HTML5</li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 logo" width="24" height="24"> CSS3</li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="24" height="24"> JavaScript</li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python logo" width="24" height="24"> Python</li>
+        </ul>
+      </article>
+
+      <!-- BACKEND -->
+      <article class="tech-card">
+        <h3><span class="tech-icon">⌘</span>Backend</h3>
+        <ul>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="24" height="24"> JavaScript basics</li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js logo" width="24" height="24"> Node.js</li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js logo" width="24" height="24"> Next.js</li>
+        </ul>
+      </article>
+
+      <!-- DATABASES -->
+      <article class="tech-card">
+        <h3><span class="tech-icon">▤</span>Databases</h3>
+        <ul>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL logo" width="24" height="24"> MySQL</li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL logo" width="24" height="24"> PostgreSQL</li>
+          <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" alt="Supabase logo" width="24" height="24"> Supabase</li>
+        </ul>
+      </article>
+
+      <!-- DESIGN & OTHERS -->
+      <article class="tech-card">
+        <h3><span class="tech-icon">✎</span>Design &amp; Others</h3>
+        <ul>
+          <li>
+            <img src="https://cdn.simpleicons.org/figma/F24E1E" alt="Figma logo" width="24" height="24">
+            Figma
+          </li>
+          <li>
+            <img src="logo canva.webp" alt="Canva logo" width="24" height="24">
+            Canva
+          </li>
+          <li>
+            <img src="https://cdn.simpleicons.org/github/181717" alt="GitHub logo" width="24" height="24">
+            GitHub
+          </li>
+          <li>
+            <img src="https://cdn.simpleicons.org/trello/0052CC" alt="Trello logo" width="24" height="24">
+            Trello
+          </li>
+        </ul>
+      </article>
+
+      <!-- OFFICE -->
+<article class="tech-card">
+  <h3><span class="tech-icon">▣</span>Office &amp; Productivity</h3>
+  <ul>
+    <li>
+      <img src="excel-logo-0-2048x2048-1-1536x1536.png" alt="Excel logo" width="24" height="24">
+      Excel
+    </li>
+    <li>
+      <img src="microsoft-word-mobile-apps-icon-free-png.webp" alt="Word logo" width="24" height="24">
+      Word
+    </li>
+    <li>
+      <img src="microsoft-power-point-mobile-apps-logo-free-png.webp" alt="PowerPoint logo" width="24" height="24">
+      PowerPoint
+    </li>
+    <li>
+      <img src="muestra-logotipo-google-fondo-blanco_1315971-720.avif" alt="Google Workspace logo" width="24" height="24">
+      Google Workspace
+    </li>
+  </ul>
+</article>
+
+</div>
+<p class="note"></p>
+</section>
+
+  <!-- PROJECTS -->
+  <section class="band" id="projects">
+    <div class="wrap section">
+      <p class="kicker">What I've worked on</p>
+      <h2>Featured Projects</h2>
+
+      <div class="cards project-cards">
+
+        <article class="project-card">
+          <div class="project-card-inner">
+
+            <div class="project-face project-front">
+              <div class="project-top">
+                <small>2026</small>
+                <span class="project-type">WEB PROJECT</span>
+              </div>
+              <div class="project-info">
+                <h3>Finans</h3>
+                <p>A digital financial management tool designed to help Salvadoran small businesses track their daily income, expenses and profits, making financial organization simpler and more accessible.</p>
+                <span>UI Design · Figma · Frontend Development · Teamwork</span>
+              </div>
+              <button class="flip-button" type="button" aria-label="View my role in Finans" aria-expanded="false">
+                <span>My role</span><span class="flip-arrow">↗</span>
+              </button>
+            </div>
+
+            <div class="project-face project-back">
+              <div class="project-top">
+                <small>MY CONTRIBUTION</small>
+                <span class="project-type">FINANS</span>
+              </div>
+              <div class="project-info">
+                <h3>UI/Frontend Contributo</h3>
+                <p>I contributed to the UI design using Figma, collaborated on frontend development by implementing parts of the website, and helped prepare the project's presentation.</p>
+              </div>
+              <a class="evidence-link" href="https://finans-website.onrender.com/" target="_blank" rel="noopener noreferrer">View evidence <span>↗</span></a>
+              <button class="flip-button flip-back" type="button" aria-label="Return to Finans description" aria-expanded="true">
+                <span>Back</span><span class="flip-arrow">↶</span>
+              </button>
+            </div>
+
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-inner">
+
+            <div class="project-face project-front">
+              <div class="project-top">
+                <small>2025</small>
+                <span class="project-type">WEBSITE</span>
+              </div>
+              <div class="project-info">
+                <h3>AgroRed</h3>
+                <p>A web platform designed to support agricultural businesses by improving how sellers manage and promote their products, making their operations more organized and accessible.</p>
+                <span>UI Design · Figma · HTML · CSS</span>
+              </div>
+              <button class="flip-button" type="button" aria-label="View my role in AgroRed project" aria-expanded="false">
+                <span>My role</span><span class="flip-arrow">↗</span>
+              </button>
+            </div>
+
+            <div class="project-face project-back">
+              <div class="project-top">
+                <small>MY CONTRIBUTION</small>
+                <span class="project-type">AGRORED</span>
+              </div>
+              <div class="project-info">
+                <h3>UI/Frontend Designer</h3>
+                <p>I contributed to the website's visual design using Figma and later worked on frontend development, implementing the interface with HTML, CSS and JavaScript.</p>
+              </div>
+              <a class="evidence-link" href="https://agro-red-c1ad.vercel.app/" target="_blank" rel="noopener noreferrer">View evidence <span>↗</span></a>
+              <button class="flip-button flip-back" type="button" aria-label="Return to Artificial Intelligence project description" aria-expanded="true">
+                <span>Back</span><span class="flip-arrow">↶</span>
+              </button>
+            </div>
+
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-inner">
+
+            <div class="project-face project-front">
+              <div class="project-top">
+                <small>2024</small>
+                <span class="project-type">MOBILE APP</span>
+              </div>
+              <div class="project-info">
+                <h3>AgroRed</h3>
+                <p>A mobile app designed to bridge buyers and agricultural sellers, making product purchases faster, easier and more efficient while saving time.</p>
+                <span>UI Design · Figma · Teamwork</span>
+              </div>
+              <button class="flip-button" type="button" aria-label="View my role in AgroRed" aria-expanded="false">
+                <span>My role</span><span class="flip-arrow">↗</span>
+              </button>
+            </div>
+
+            <div class="project-face project-back">
+              <div class="project-top">
+                <small>MY CONTRIBUTION</small>
+                <span class="project-type">AGRORED</span>
+              </div>
+              <div class="project-info">
+                <h3>UI Designer</h3>
+                <p>I was responsible for designing the app's user interface in Figma, creating visual layouts and organizing elements to provide a clear and user-friendly experience.</p>
+              </div>
+              <a class="evidence-link" href="https://www.figma.com/proto/LD4DOEBLlQjKvX7dOAqkV2/Moskups?node-id=1-3&p=f&t=X1tFglxOYejjdtEk-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2" target="_blank" rel="noopener noreferrer">View evidence <span>↗</span></a>
+              <button class="flip-button flip-back" type="button" aria-label="Return to AgroRed description" aria-expanded="true">
+                <span>Back</span><span class="flip-arrow">↶</span>
+              </button>
+            </div>
+
+          </div>
+        </article>
+
+      </div>
+    </div>
   </section>
 
-  <!-- PROJECTS: interactive cards with front and back -->
-  <section class="band" id="projects"><div class="wrap section"><p class="kicker">What I've worked on</p><h2>Featured Projects</h2><div class="cards project-cards">
+  <!-- CERTIFICATIONS -->
+  <section class="wrap section" id="certifications">
+    <p class="kicker">My achievements</p>
+    <h2>Certifications</h2>
+    <p class="sub">Certificates that recognize my learning and skills.</p>
 
-    <article class="project-card">
-      <div class="project-card-inner">
-        <div class="project-face project-front">
-          <div class="project-top"><small>2026</small><span class="project-type">WEB PROJECT</span></div>
-          <div class="project-info"><h3>Finans</h3><p>A concept to help small businesses track daily income, expenses and profit.</p><span>Web Design · Finance · UX/UI</span></div>
-          <button class="flip-button" type="button" aria-label="View my role in Finans" aria-expanded="false"><span>My role</span><span class="flip-arrow">↗</span></button>
-        </div>
-        <div class="project-face project-back">
-          <div class="project-top"><small>MY CONTRIBUTION</small><span class="project-type">FINANS</span></div>
-          <div class="project-info"><h3>My role</h3><p>I contributed to the development and presentation of a digital solution focused on helping Salvadoran small businesses organize their finances. My specific tasks and contributions can be detailed here.</p></div>
-          <a class="evidence-link" href="#" target="_blank" rel="noopener noreferrer">View evidence <span>↗</span></a>
-          <button class="flip-button flip-back" type="button" aria-label="Return to Finans description" aria-expanded="true"><span>Back</span><span class="flip-arrow">↶</span></button>
-        </div>
-      </div>
-    </article>
+    <div class="cards portfolio-grid">
 
-    <article class="project-card">
-      <div class="project-card-inner">
-        <div class="project-face project-front">
-          <div class="project-top"><small>2026</small><span class="project-type">EDUCATIONAL WEBSITE</span></div>
-          <div class="project-info"><h3>Artificial Intelligence</h3><p>An educational website about AI, its applications, benefits and responsible use.</p><span>HTML · CSS · JavaScript</span></div>
-          <button class="flip-button" type="button" aria-label="View my role in Artificial Intelligence project" aria-expanded="false"><span>My role</span><span class="flip-arrow">↗</span></button>
+      <article class="portfolio-item">
+        <div class="preview-image">
+          <img src="Excel.expert_page-0001.jpg" alt="Excel Expert certification">
         </div>
-        <div class="project-face project-back">
-          <div class="project-top"><small>MY CONTRIBUTION</small><span class="project-type">AI WEBSITE</span></div>
-          <div class="project-info"><h3>My role</h3><p>I worked on the educational website project, contributing to its content and interactive features, including expandable cards, navigation and the image gallery. Add or adjust the details to reflect your exact responsibilities.</p></div>
-          <a class="evidence-link" href="#" target="_blank" rel="noopener noreferrer">View evidence <span>↗</span></a>
-          <button class="flip-button flip-back" type="button" aria-label="Return to Artificial Intelligence project description" aria-expanded="true"><span>Back</span><span class="flip-arrow">↶</span></button>
+        <div class="portfolio-details">
+          <h3>Excel Expert Certification</h3>
+          <p>Microsoft Excel · 2026</p>
         </div>
-      </div>
-    </article>
+      </article>
 
-    <article class="project-card">
-      <div class="project-card-inner">
-        <div class="project-face project-front">
-          <div class="project-top"><small>2024</small><span class="project-type">STUDENT PROJECT</span></div>
-          <div class="project-info"><h3>AgroRed</h3><p>A student concept connecting agricultural sellers and buyers through digital tools.</p><span>Teamwork · Research · Pitch</span></div>
-          <button class="flip-button" type="button" aria-label="View my role in AgroRed" aria-expanded="false"><span>My role</span><span class="flip-arrow">↗</span></button>
+      <article class="portfolio-item">
+        <div class="preview-image">
+          <img src="Excel.Associate_page-0001.jpg" alt="Excel Expert certification">
         </div>
-        <div class="project-face project-back">
-          <div class="project-top"><small>MY CONTRIBUTION</small><span class="project-type">AGRORED</span></div>
-          <div class="project-info"><h3>My role</h3><p>I participated in a student project focused on connecting agricultural sellers and buyers. Describe your specific responsibilities, research, teamwork and presentation contributions here.</p></div>
-          <a class="evidence-link" href="#" target="_blank" rel="noopener noreferrer">View evidence <span>↗</span></a>
-          <button class="flip-button flip-back" type="button" aria-label="Return to AgroRed description" aria-expanded="true"><span>Back</span><span class="flip-arrow">↶</span></button>
+        <div class="portfolio-details">
+          <h3>Excel Associate Certification</h3>
+          <p>Microsoft Excel · 2025</p>
         </div>
-      </div>
-    </article>
+      </article>
 
-  </div></div></section>
+    </div>
+  </section>
 
-  <section class="wrap section" id="certifications"><p class="kicker">Learning journey</p><h2>Courses &amp; Certifications</h2><p class="sub">Add the three required module courses and their certificate links.</p><div class="cards">
-    <article><h3>Excel Expert Certification</h3><p>Microsoft Excel · 2026</p><a class="certificate" href="#">Add certificate link</a></article>
-    <article><h3>Course 2</h3><p>Replace with your course name and year.</p><a class="certificate" href="#">Add certificate link</a></article>
-    <article><h3>Course 3</h3><p>Replace with your course name and year.</p><a class="certificate" href="#">Add certificate link</a></article>
-  </div></section>
+  <!-- COURSES -->
+  <section class="wrap section" id="courses">
+    <p class="kicker">Continuous learning</p>
+    <h2>Courses</h2>
+    <p class="sub">Some of the courses I have completed.</p>
 
-  <section class="contact band" id="contact"><div class="wrap section"><p class="kicker">Let's connect</p><h2>Contact</h2><p>If you'd like to learn more about my work or collaborate on a project, feel free to contact me.</p><a class="btn primary" href="mailto:your.email@example.com">Email Me ↗</a></div></section>
+    <div class="cards portfolio-grid">
+
+      <article class="portfolio-item">
+        <div class="preview-image">
+          <img src="diploma-redes-sociales (1)_page-0001.jpg" alt="Course 2 certificate">
+        </div>
+        <div class="portfolio-details">
+          <h3>Social networks for companies</h3>
+          <p>Platzi · 2026</p>
+        </div>
+      </article>
+
+      <article class="portfolio-item">
+        <div class="preview-image">
+          <img src="diploma-ciberseguridad-ia-trabajo_page-0001.jpg" alt="Course 3 certificate">
+        </div>
+        <div class="portfolio-details">
+          <h3>Cybersecurity for working with AI</h3>
+          <p>Platzi· 2026</p>
+        </div>
+      </article>
+
+      <article class="portfolio-item">
+        <div class="preview-image">
+          <img src="diploma-bi-deep-research-ia_page-0001 (1).jpg" alt="Java Programming course certificate">
+        </div>
+        <div class="portfolio-details">
+          <h3>Business Intelligence y Deep Research con IA</h3>
+          <p>Platzi · 2026</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact band" id="contact">
+    <div class="wrap section">
+      <p class="kicker">Let's connect</p>
+      <h2>Contact</h2>
+      <p>If you'd like to learn more about my work or collaborate on a project, feel free to contact me.</p>
+      <a class="btn primary" href="mailto:nataliamonterroza1@outlook.com">Email Me ↗</a>
+    </div>
+  </section>
+
 </main>
+
 <footer>© <span id="year"></span> Natalia · Digital Portfolio</footer>
+
 </body>
 </html>
-
