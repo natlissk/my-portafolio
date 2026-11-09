@@ -479,3 +479,27 @@ body.modal-open{
   .project-card-inner,.flip-arrow{transition:none}
 }
 
+.email-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+  padding: 13px 28px;
+  background: #7857c8;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.email-button:hover {
+  background: #6241ad;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(120, 87, 200, 0.25);
+}
+
+.email-button i {
+  font-size: 17px;
+}
